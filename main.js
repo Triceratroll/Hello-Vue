@@ -9,13 +9,13 @@ var app = new Vue({
         variants: [
             {
                 variantid: 2221,
-                variantColor: 'Grey',
+                variantColor: 'grey',
                 variantImage: './assets/socks-1.jpg'
 
             },
             {
                 variantid: 2222,
-                variantColor: 'Black',
+                variantColor: 'black',
                 variantImage: './assets/socks-2.jpg'
 
             }
