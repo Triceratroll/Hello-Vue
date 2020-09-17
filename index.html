@@ -10,10 +10,10 @@
     <div class="nav-bar"></div>
 
     <div id="app">
-        <product></product>
-        <product></product>
-        <product></product>
-        <product></product>
+        <div class="cart">
+            <p>Cart({{ cart.length }})</p>
+        </div>
+        <product @add-to-cart="updateCart" @empty-cart="clearCart"></product>
     </div>
 
     <!-- development version, includes helpful console warnings -->
